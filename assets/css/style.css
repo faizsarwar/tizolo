@@ -52,24 +52,6 @@ body {
     scroll-behavior: smooth;
 }
 
-
-
-.overflowHide{
-    height: 300px;
-    overflow: hidden;
-}
-
-.seeMore, .seeMore2, .seeMore3 {
-  padding: 5px 20px;
-  border: none;
-  border-radius: 50px;
-  background: #12c0dd;
-  color: white;
-  font-weight: 700;
-  margin-top: 15px;
-  font-size: 14px;
-}
-
 @keyframes pageAnimation {
     0% {
         opacity: 0;
@@ -80,14 +62,23 @@ body {
     }
 }
 
+
+.dialogbox, .feature-inner ,.app-feature-box{
+    height: 1000px;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: 700; */
 }
 
 .font-20 {
@@ -1437,7 +1428,7 @@ canvas {
 }
 
 .footer .foot_logo img {
-    height: 36px;
+    height: 72px;
 }
 
 .footer .footer_menu_list li {
@@ -1893,7 +1884,7 @@ canvas {
 
 @media (max-width: 1480px) {
     .footer {
-        padding-top: 200px;
+        padding-top: 60px;
     }
 }
 

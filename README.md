@@ -1,1 +1,0 @@
-# Tizolo-Healthcare-Static-Website
