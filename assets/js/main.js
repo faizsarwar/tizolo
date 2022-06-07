@@ -71,7 +71,7 @@ $(document).ready(function () {
                 if (d.status == 'ok') {
                     firstnameObj.val(''); lastnameObj.val(''); commentsObj.val(''); emailObj.val(''); phoneObj.val('');
                     $('#status_br').addClass('success');
-                    $('#status_br').html('Demo request have been sent successfully. HealthEz team will call you shortly.');
+                    $('#status_br').html('Demo request have been sent successfully. ALLICO team will call you shortly.');
                 } else {
 
                     $('#status_br').addClass('error');

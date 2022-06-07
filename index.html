@@ -42,8 +42,8 @@
         <div class="container">
             <!-- LOGO -->
             <a class="navbar-brand brand-logo mr-4" href="index.html">
-                <img src="assets/images/kare-health-logo-light.png" class="img-fluid logo-light" alt="">
-                <img src="assets/images/kare-health-logo.png" class="img-fluid logo-dark" alt="">
+                <img src="assets/images/Allico-health-logo-light.png" class="img-fluid logo-light" alt="">
+                <img src="assets/images/Allico-health-logo.png" class="img-fluid logo-dark" alt="">
             </a>
             <div class="navbar-collapse collapse justify-content-center" id="navbarCollapse">
                 <ul class="navbar-nav navbar-center" id="mySidenav">
@@ -174,11 +174,7 @@
                                 as well as Asthma patients who
                                 need accurate readings on their breathe rate all while providing them with peace-of mind
                                 knowing what it shows
-                                corresponds with medical advice given out by doctors! They also have scales made
-                                specifically towards CHF/obesity
-                                treatments which allow one to accurately weigh themselves down if they are overweight or
-                                obese; this will give you an
-                                idea about how much weight loss you may require before starting any diet plan.
+                                corresponds with medical advice given out by doctors!
                             </div>
                         </div>
                     </div>
@@ -201,9 +197,7 @@
                                 state-of--the art portal billing system
                                 (and it is HIPPA compliant), not only will patients be informed on their progress
                                 towards being billed correctly; so
-                                that billers don’t find themselves caught up in an actionable situation simply because
-                                they were alerted while
-                                processing payments through TZH.
+                                that billers don’t find themselves caught up in an actionable situation 
                             </div>
                         </div>
                     </div>
@@ -343,18 +337,7 @@
                                             possible because we have everything available
                                             under one roof.
                                             Tizolo Healthcare provides a full range of healthcare and business solutions
-                                            for large group practices. Our monitoring
-                                            devices are designed to improve daily operations, so you can offer your
-                                            patients the best care possible without worrying
-                                            about how it is done behind-the scenes! With Tizolo’s support at every
-                                            location across an organization or coalition we
-                                            will help increase productivity while maintaining profitability through
-                                            efficiency in data collection - all thanks again
-                                            from one simple touch screen interface.
-                                            With more than just medical equipment on hand (diagnostics including X
-                                            rays), our team works closely with physicians who
-                                            rely heavily upon information drawn quickly whenever they need access to
-                                            sensitive patient records anytime anywhere.
+                                            for large group practices. 
                                         </div>
                                     </div>
                                 </div>
@@ -490,16 +473,16 @@
                     <div class="col-lg-6 col-sm-12 mx-auto">
                         <div class="mt-4 contact_form wow fadeIn" data-wow-duration="1500ms">
                             <p id="status_br"></p>
-                            <form>
+                            <form id="contact" action="https://tizolo-django.herokuapp.com/api/v1/info/" method="post">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input name="firstname" id="firstname"  required  type="text" class="form-control" placeholder="First Name">
+                                        <div class="form-group" >
+                                            <input name="first_name" id="firstname"  required  type="text" class="form-control" placeholder="First Name">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input name="lastname" id="lastname" required  type="text" class="form-control" placeholder="Last Name">
+                                            <input name="last_name" id="lastname" required  type="text" class="form-control" placeholder="Last Name">
                                         </div>
                                     </div>
                                 </div>
@@ -511,20 +494,20 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input name="phone" id="phone" required  type="text" class="form-control" placeholder="Phone Number">
+                                            <input name="Phone_number" id="phone" required  type="text" class="form-control" placeholder="Phone Number">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <textarea name="comments" id="comments" required  rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                            <textarea name="message" id="comments" required  rows="4" class="form-control" placeholder="Your message..."></textarea>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12 text-center">
-                                        <input type="button" class="btn btn-gradient text-white w-100 text-uppercase" id="submit_q" value="Submit request">
+                                        <input type="submit" class="btn btn-gradient text-white w-100 text-uppercase" id="submit_q" value="Submit">
                                     </div>
                                 </div>
                             </form>
@@ -711,7 +694,7 @@
 
 
     <!-- Who we are Section Start -->
-    <section class="section " id="aboutus">
+    <section class="section " >
         <div class="container">
             <div class="row mt-30">
                 <div class="col-lg-12">
@@ -736,7 +719,7 @@
                     </div>
 
                     <div class="text-left">
-                        <h4 class="mt-4" style="color:#0ebdca !important">Foundational Solutions of Virtual Care by Kare Health</h4>
+                        <h4 class="mt-4" style="color:#0ebdca !important">Foundational Solutions of Virtual Care by Allico Health</h4>
                         <ul class="text-center">
                             <li>
                                 Remote patient monitoring provides peace of mind for your loved one. It allows you to
@@ -803,7 +786,7 @@
         <div class="container footer-bottom">
 
             <div class="text-center foot_logo pb-4 align mb-3  " style="text-align: center;">
-                <img src="assets/images/kare-health-logo-light.png" class="img-fluid d-block" style="text-align: center; margin: auto; display: block;"alt="">
+                <img src="assets/images/Allico-health-logo-light.png" class="img-fluid d-block" style="text-align: center; margin: auto; display: block;"alt="">
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
@@ -817,7 +800,7 @@
                             </a>
                         </li>
                         <li><i class="md-icon mdi mdi-email-outline"></i><a
-                                href="mailto:hello@Kare.io">hello@Kare.io</a></li>
+                                href="mailto:hello@Allico.io">hello@Allico.io</a></li>
                         <li><i class="md-icon mdi mdi-phone-in-talk"></i><a href="tel:+12453698741">+1 (844)
                                 690-1100</a></li>
                     </ul>
@@ -851,8 +834,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="foot_desc mt-4 pt-4">
-                        <p class="mb-0 text-center">2020 &copy; <span class="text-white font-weight-bold">Kare Health
-                            </span> Design by Kare Health.</p>
+                        <p class="mb-0 text-center">2020 &copy; <span class="text-white font-weight-bold">Allico Health
+                            </span> Design by Allico Health.</p>
                     </div>
                 </div>
             </div>
