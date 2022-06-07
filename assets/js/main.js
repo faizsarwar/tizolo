@@ -89,6 +89,9 @@ $(document).ready(function () {
 
 
     });
+    document.getElementById("contact").addEventListener("click", function(event){
+        event.preventDefault()
+      });
 
 
     /*----MAIN SLIDER-----*/
