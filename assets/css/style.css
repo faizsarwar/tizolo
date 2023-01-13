@@ -385,7 +385,7 @@ button:focus {
         color: rgba(255, 255, 255, 0.6);
         font-size: 14px;
         font-weight: 600;
-        padding: 6px 16px !important;
+        padding: 6px 10px !important;
         margin: 0 3px;
     }
 
@@ -2272,7 +2272,7 @@ canvas {
     }
 
     .brand-logo.navbar-brand {
-        margin-right: 5px !important;
+        margin-right: 15px !important;
     }
 
     .custom-nav .navbar-brand.brand-logo img {
